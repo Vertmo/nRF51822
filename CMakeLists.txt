@@ -5,7 +5,7 @@ project(ble-nrf51822)
 file(GLOB BLE-NRF51822_CPP_FILES
   "source/*.cpp"
   "source/btle/*.cpp"
-  "source/custom/*.cpp"
+  "source/btle/custom/*.cpp"
 )
 
 include("include_headers.cmake")
